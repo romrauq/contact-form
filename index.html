@@ -13,78 +13,78 @@
   </head>
 
   <body>
-    <div>
-      <div>
+    <div class="success-div">
+      <div class="row-div">
         <img src="" alt="">
-        <p>Message Sent!</p>
+        <p class="success-title">Message Sent!</p>
       </div>
-      <p>
+      <p class="success-text">
         Thanks for completing the form. We'll be in touch soon!
       </p>
     </div>
 
-    <div>
-      <h1>
-        Contact Us
-      </h1>
-
+    <div class="main-container">
       <form action="">
-        <div>
-          <div>
-            <label for="first_name">
+        <h1 class="form-heading">
+          Contact Us
+        </h1>
+        <div class="input-col-row">
+          <div class="input-col">
+            <label for="first_name" class="label">
               First Name
             </label>
-            <input type="text" name="first_name" id="">
-            <p>This field is required</p>
+            <input type="text" name="first_name" id="" class="">
+            <p class="error-text">This field is required</p>
 
           </div>
-          <div>
-            <label for="last_name">
+          <div class="input-col">
+            <label for="last_name" class="label">
               Last Name
             </label>
             <input type="text" name="last_name" id="">
-            <p>This field is required</p>
+            <p class="error-text">This field is required</p>
           </div>
         </div>
 
-        <div>
-          <div>
-            <label for="email">Email Address</label>
+        <div class=" input-col-row">
+          <div class="input-div-full">
+            <label for="email" class="label">Email Address</label>
             <input type="email" name="email" id="">
-            <p>Please enter a valid email address</p>
+            <p class="error-text">Please enter a valid email address</p>
           </div>
         </div>
 
-        <div>
-          <label for="">Query Type</label>
-          <div>
-            <div>
+        <!-- Check for proper div placement!!! -->
+        <div class="input-col-row">
+          <label for="" class="label">Query Type</label>
+          <div class="input-col-row">
+            <div class="input-col">
               <input type="radio" name="" id="">
               General Enquiry
             </div>
+            <div class="input-col">
+              <input type="radio" name="" id="">
+              Support Request
+            </div>
           </div>
-          <div>
-            <input type="radio" name="" id="">
-            Support Request
-          </div>
-          <p>Please select a query type</p>
+          <p class="error-text">Please select a query type</p>
         </div>
 
-        <div>
-          <label for="message">Message *</label>
-          <input type="text" name="" id="">
-          <p>This field is required</p>
+        <div class="input-col-row">
+          <label for="message" class="label">Message *</label>
+          <textarea name="message" id="" class="textarea"></textarea>
+          <p class="error-text">This field is required</p>
         </div>
 
-        <div>
-          <div>
+        <div class="input-col-row consent-div">
+          <div class="input-col">
             <input type="checkbox" name="consent" id="">
-            <p>I consent to bieng contacted by the team *</p>
+            <p>I consent to being contacted by the team *</p>
           </div>
-          <p>To submit this form, please consent to being contacted</p>
+          <p class="error-text">To submit this form, please consent to being contacted</p>
         </div>
 
-        <input type="button" value="Submit">
+        <input type="button" value="Submit" class="submit-button">
       </form>
     </div>
 
