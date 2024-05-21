@@ -35,24 +35,24 @@
           <label for="first_name">
             First Name *
           </label>
-          <input type="text" name="first_name" id="" class="text-input half-span-input">
-          <p class="error-text">This field is required</p>
+          <input type="text" name="first_name" id="first_name_input" class="text-input half-span-input">
+          <p class="error-text" id="first_name_error_text">This field is required</p>
 
         </div>
         <div class="column-div">
           <label for="last_name">
             Last Name *
           </label>
-          <input type="text" name="last_name" id="" class="text-input half-span-input">
-          <p class="error-text">This field is required</p>
+          <input type="text" name="last_name" id="last_name_input" class="text-input half-span-input">
+          <p class="error-text" id="last_name_error_text">This field is required</p>
         </div>
       </div>
 
       <!-- Email input row -->
       <div class="email-container-row">
         <label for="email">Email Address</label>
-        <input type="email" name="email" id="" class="text-input full-row-input">
-        <p class="error-text">Please enter a valid email address</p>
+        <input type="email" name="email" id="email_input" class="text-input full-row-input">
+        <p class="error-text" id="email-error-text">Please enter a valid email address</p>
       </div>
 
       <!-- Radio inputs row -->
@@ -60,15 +60,15 @@
         <label for="">Query Type *</label>
         <div class="radio-container-row">
           <div class="radio-column-div">
-            <input type="radio" name="" id="">
+            <input type="radio" name="" id="general_enquiry_radio">
             <p class="radio-text">General Enquiry</p>
           </div>
           <div class="radio-column-div">
-            <input type="radio" name="" id="">
+            <input type="radio" name="" id="support_request_radio">
             <p class="radio-text">Support Request</p>
           </div>
         </div>
-        <p class="error-text">Please select a query type</p>
+        <p class="error-text" id="radio_error-text">Please select a query type</p>
       </div>
 
       <div class="message-container-row">
@@ -82,7 +82,7 @@
           <input type="checkbox" name="consent" id="">
           <p class="consent-text">I consent to being contacted by the team *</p>
         </div>
-        <p class="error-text">To submit this form, please consent to being contacted</p>
+        <p class="error-text" id="consent-error-text">To submit this form, please consent to being contacted</p>
       </div>
 
       <input type="button" value="Submit" class="submit-button">
