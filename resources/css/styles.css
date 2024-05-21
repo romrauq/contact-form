@@ -164,6 +164,10 @@ label {
 	background-color: hsl(169, 82%, 27%);
 	border-radius: 3px;
 	border: none;
+	cursor: pointer;
+}
+.submit-button:hover {
+	background-color: hsl(187, 24%, 22%);
 }
 
 .attribution {
