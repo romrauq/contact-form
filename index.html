@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="./resources/css/styles.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png">
 
     <title>Frontend Mentor | Contact form</title>
 
@@ -24,66 +24,67 @@
     </div>
 
     <form action="" class="main-container">
-      <h1 class="form-heading">
+      <h3 class="form-heading">
         Contact Us
-      </h1>
-      <div class="input-col-row">
-        <div class="input-col">
-          <label for="first_name" class="label">
-            First Name
+      </h3>
+
+      <!-- First name, Last name inputs row: -->
+      <div class="container-row">
+        <div class="column-div">
+          <label for="first_name">
+            First Name *
           </label>
-          <input type="text" name="first_name" id="" class="">
+          <input type="text" name="first_name" id="" class="text-input half-span-input">
           <p class="error-text">This field is required</p>
 
         </div>
-        <div class="input-col">
-          <label for="last_name" class="label">
-            Last Name
+        <div class="column-div">
+          <label for="last_name">
+            Last Name *
           </label>
-          <input type="text" name="last_name" id="">
+          <input type="text" name="last_name" id="" class="text-input half-span-input">
           <p class="error-text">This field is required</p>
         </div>
       </div>
 
-      <div class=" input-col-row">
-        <div class="input-div-full">
-          <label for="email" class="label">Email Address</label>
-          <input type="email" name="email" id="">
-          <p class="error-text">Please enter a valid email address</p>
-        </div>
+      <!-- Email input row -->
+      <div class="email-container-row">
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="" class="text-input full-row-input">
+        <p class="error-text">Please enter a valid email address</p>
       </div>
 
-      <!-- Check for proper div placement!!! -->
-      <div class="input-col-row">
-        <label for="" class="label">Query Type</label>
-        <div class="input-col-row">
-          <div class="input-col">
+      <!-- Radio inputs row -->
+      <div>
+        <label for="">Query Type *</label>
+        <div class="radio-container-row">
+          <div class="radio-column-div">
             <input type="radio" name="" id="">
-            General Enquiry
+            <p class="radio-text">General Enquiry</p>
           </div>
-          <div class="input-col">
+          <div class="radio-column-div">
             <input type="radio" name="" id="">
-            Support Request
+            <p class="radio-text">Support Request</p>
           </div>
         </div>
         <p class="error-text">Please select a query type</p>
       </div>
 
-      <div class="input-col-row">
-        <label for="message" class="label">Message *</label>
+      <!-- <div class="input-col-row">
+        <label for="message">Message *</label>
         <textarea name="message" id="" class="textarea"></textarea>
         <p class="error-text">This field is required</p>
-      </div>
+      </div> -->
 
-      <div class="input-col-row consent-div">
+      <!-- <div class="input-col-row consent-div">
         <div class="input-col">
           <input type="checkbox" name="consent" id="">
           <p>I consent to being contacted by the team *</p>
         </div>
         <p class="error-text">To submit this form, please consent to being contacted</p>
-      </div>
+      </div> -->
 
-      <input type="button" value="Submit" class="submit-button">
+      <!-- <input type="button" value="Submit" class="submit-button"> -->
     </form>
 
     <div class="attribution">
