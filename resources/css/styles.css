@@ -153,8 +153,8 @@ label {
 	color: hsl(0, 66%, 56%);
 	margin: 3px 0 0 0;
 	width: fit-content;
-	visibility: hidden;
-	/* display: none; */
+	/* visibility: hidden; */
+	display: none;
 }
 
 .submit-button {
