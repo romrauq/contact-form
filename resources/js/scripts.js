@@ -1,10 +1,10 @@
 // Get references to input fields and error texts:
-const first_name_input = document.getElementById("first-name-input");
+const first_name_input = document.getElementById("first_name_input");
 const first_name_error_text = document.getElementById("first_name_error_text");
 const last_name_input = document.getElementById("last_name_input");
 const last_name_error_text = document.getElementById("last_name_error_text");
 const email_input = document.getElementById("email_input");
-const email_error_text = document.getElementById("email-error-text");
+const email_error_text = document.getElementById("email_error_text");
 const enquiry_radio = document.getElementById("enquiry_radio");
 const request_radio = document.getElementById("request_radio");
 const radio_error_text = document.getElementById("radio_error_text");
