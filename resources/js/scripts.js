@@ -34,7 +34,7 @@ function submitForm() {
 		last_name_input.style.border = "1px solid hsl(0, 66%, 56%)";
 		last_name_error_text.style.display = "block";
 	} else {
-		first_name_input.style.border = "1px solid hsl(186, 15%, 59%)";
+		last_name_input.style.border = "1px solid hsl(186, 15%, 59%)";
 		last_name_error_text.style.display = "none";
 	}
 
@@ -57,7 +57,7 @@ function submitForm() {
 		message_error_text.style.display = "block";
 		// return
 	} else {
-		first_name_input.style.border = "1px solid hsl(186, 15%, 59%)";
+		message_input.style.border = "1px solid hsl(186, 15%, 59%)";
 		message_error_text.style.display = "none";
 	}
 
@@ -67,5 +67,5 @@ function submitForm() {
 		consent_error_text.style.display = "none";
 	}
 
-	success_modal.style.visibility = "visible";
+	// success_modal.style.visibility = "visible";
 }
