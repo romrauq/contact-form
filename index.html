@@ -35,7 +35,7 @@
           <label for="first_name">
             First Name *
           </label>
-          <input type="text" name="first_name" id="first_name_input" class="text-input half-span-input">
+          <input type="text" name="first_name" id="first_name_input" class="text-input half-span-input" required>
           <p class="error-text" id="first_name_error_text">This field is required</p>
 
         </div>
@@ -43,15 +43,15 @@
           <label for="last_name">
             Last Name *
           </label>
-          <input type="text" name="last_name" id="last_name_input" class="text-input half-span-input">
+          <input type="text" name="last_name" id="last_name_input" class="text-input half-span-input" required>
           <p class="error-text" id="last_name_error_text">This field is required</p>
         </div>
       </div>
 
       <!-- Email input row -->
       <div class="email-container-row">
-        <label for="email">Email Address</label>
-        <input type="email" name="email" id="email_input" class="text-input full-row-input">
+        <label for="email">Email Address *</label>
+        <input type="email" name="email" id="email_input" class="text-input full-row-input" required>
         <p class="error-text" id="email_error_text">Please enter a valid email address</p>
       </div>
 
@@ -59,10 +59,10 @@
       <div class="radio-container">
         <label for="">Query Type *</label>
         <div class="radio-container-row">
-          <div class="radio-column-div">
+          <div class="radio-column-div" id="enquiry_div">
             <input type="radio" name="" id="enquiry_radio" class="radio">General Enquiry</input>
           </div>
-          <div class="radio-column-div">
+          <div class="radio-column-div" id="request_div">
             <input type="radio" name="" id="request_radio" class="radio">Support Request</input>
           </div>
         </div>
@@ -71,13 +71,13 @@
 
       <div class="message-container-row">
         <label for="message">Message *</label>
-        <textarea name="message" id="message_input" class="textarea"></textarea>
+        <textarea name="message" id="message_input" class="textarea" required></textarea>
         <p class="error-text" id="message_error_text">This field is required</p>
       </div>
 
       <div class="consent-container-row">
         <div class="consent-column">
-          <input type="checkbox" name="consent" id="checkbox_input">
+          <input type="checkbox" name="consent" id="checkbox_input" class="consent_checkbox">
           <p class="consent-text">I consent to being contacted by the team *</p>
         </div>
         <p class="error-text" id="consent_error_text">To submit this form, please consent to being contacted</p>
