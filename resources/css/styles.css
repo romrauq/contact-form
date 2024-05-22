@@ -83,6 +83,10 @@ label {
 	width: 100%;
 }
 
+.text-input:focus {
+	outline: none;
+}
+
 .half-span-input {
 }
 
@@ -118,6 +122,7 @@ label {
 .radio-text {
 	font-size: 10px;
 	margin: 0 0 0 5px;
+	cursor: pointer;
 }
 
 .message-container-row {
@@ -134,6 +139,10 @@ label {
 	resize: none;
 	border: 1px solid hsl(186, 15%, 59%);
 	border-radius: 3px;
+}
+
+.textarea:focus {
+	outline: none;
 }
 
 .consent-container-row {
